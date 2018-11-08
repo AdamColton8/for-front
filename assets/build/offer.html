@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Useful meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow, noodp">
+    <meta name="googlebot" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!--<link href="css/main.css" rel="stylesheet" />-->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Аптека №5</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+          crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css"/>
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="css/simplebar.css"/>-->
+    
+    
+    <title>Аптека</title>
+</head>
+<body>
+<div class="header-mob">
+    <div class="logo-menu">
+        <a class="logo-header" href="/">
+            <img src="img/logo.svg" alt="">
+            <span class="text">
+                <span class="first">Аптека №5</span>
+            <span class="second"> Скидки до 70%</span>
+            </span>
+        </a>
+    </div>
+
+
+    <div class="mob-contacts_items">
+        <div class="contacts_items_block contacts_items_block_phone">
+            <a href="tel:88009108540">
+                <img src="img/telefon-ikon-768x768.png" alt="phone">
+            </a>
+        </div>
+        <div class="contacts_items_block contacts_items_block_email">
+            <img src="img/mail.png" alt="mail">
+        </div>
+        <div class="contacts_items_block contacts_items_block_vk">
+            <img src="img/vk.png" alt="vk">
+        </div>
+    </div>
+</div>
+
+<header>
+    <div class="container">
+        <div class="row align-items-center header-items">
+            <div class="left-part">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">Каталог</a>
+                        </li>
+                        <li>
+                            <a href="#">Доставка</a>
+                        </li>
+                        <li>
+                            <a href="#">Статьи</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right-part open-modal-link" data-modal-container="#modal-adress">
+                <div class=" d-flex justify-content-end" style="">
+                    <div class="region">
+                        <span class="white-text">Ваш регион:</span>
+                    </div>
+                    <div class="select_region cust-select">
+                        <span value="ekb">Екатеринбург</span>
+                        <i class="fas fa-angle-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section class="contacts">
+    <div class="container">
+        <div class="row">
+
+            <div class="desctop-items">
+                <a class="logo-header" href="/">
+                    <img src="img/logo.svg" alt="">
+                    <div class="text">
+                        <span class="first">Аптека №5</span>
+                        <span class="second"> Скидки до 70%</span>
+                    </div>
+                </a>
+
+                <div class="contacts_items">
+                    <div class="contacts_items_block contacts_items_block_phone">
+                        <a href="tel:88009108540">
+                            <img src="img/telefon-ikon-768x768.png" alt="phone">
+                            <span class="phone">8-800-910-85-40</span>
+                        </a>
+                    </div>
+                    <div class="contacts_items_block contacts_items_block_email">
+                        <img src="img/mail.png" alt="mail">
+                        <span class="mail">ekb@apteka-5.ru</span>
+                    </div>
+                    <div class="contacts_items_block contacts_items_block_vk">
+                        <img src="img/vk.png" alt="vk">
+                        <a href="#"><span class="vk">Вконтакте</span></a>
+                    </div>
+                </div>
+
+
+                <div class="cart-full-container open-modal-link"  data-modal-container="#modal-cart">
+                    <div class="cart-block ">
+                        <div class="cart-icon">
+                            <div class="order_value">1</div>
+                            <img src="img/cart.png" alt="cart">
+                        </div>
+                    </div>
+                    <div class="cart-count">
+                        <div class="cart_text">Корзина</div>
+                        <div class="cart_value"><span id="items_in_cart">0</span> товаров</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--<div class="row d-flex justify-content-between  align-items-center desctop-items">
+                <div class="col-12 col-md-3 col-lg-3 logo">
+                    <img src="img/logo.png" alt="logo">
+                </div>
+                <div class="col-12 col-md-4 col-lg-6 contacts_items">
+                    <div class="contacts_items_block contacts_items_block_phone">
+                        <a href="tel:88009108540">
+                            <img src="img/telefon-ikon-768x768.png" alt="phone">
+                            <span class="phone">8-800-910-85-40</span>
+                        </a>
+                    </div>
+                    <div class="contacts_items_block contacts_items_block_email">
+                        <img src="img/mail.png" alt="mail">
+                        <span class="mail">ekb@apteka-5.ru</span>
+                    </div>
+                    <div class="contacts_items_block contacts_items_block_vk">
+                        <img src="img/vk.png" alt="vk">
+                        <a href="#"><span class="vk">Вконтакте</span></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 col-lg-2" onclick="PopUpShow2()">
+                    <div class="row d-flex align-items-center justify-content-center cart-container">
+                        <div class="justify-content-end cart-block open-modal-link" data-modal-container="#modal-cart">
+                            <div class="order_value">1</div>
+                            <img src="img/cart.png" alt="cart">
+                        </div>
+                        <div class="col-cart open-modal-link" data-modal-container="#modal-cart">
+                            <div class="cart_text">Корзина</div>
+                            <div class="cart_value"><span id="items_in_cart">0</span> товаров</div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </div>
+</section>
+
+<section class="offer">
+    <div class="container">
+        <div class="path">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Лечение зависимостей</a></li>
+                <li class="active-breadcrumb"><a href="#">АлкоБарьер в Екатеринбурге</a></li>
+            </ul>
+        </div>
+        <div class=" gods_title">
+            <span id="tovar">АлкоБарьер</span>&nbsp;в&nbsp;<span id="city">Екатеринбурге</span>
+        </div>
+        <div class="offer-card">
+            <div class="left-part border">
+                <div class="">
+                    <div class=" offer_god justify-content-center d-flex">
+                        <img src="img/kupit-alkobarer.png" alt="kypit-alko">
+                    </div>
+                </div>
+                <hr class="offer_god_line">
+                <div class="offer_god_other d-flex justify-content-space-evenly">
+                    <div class="offer_god_other__items">
+                        <img src="img/kupit-alkobarer-opacity.png" alt="kupit-alkobarer-opacity">
+                    </div>
+                    <div class="offer_god_other__items">
+                        <img src="img/kupit-alkobarer-opacity.png" alt="kupit-alkobarer-opacity">
+                    </div>
+                    <div class="offer_god_other__items">
+                        <img src="img/kupit-alkobarer-opacity.png" alt="kupit-alkobarer-opacity">
+                    </div>
+                </div>
+            </div>
+            <div class="right-part offer_info">
+                <div class="justify-content-between align-items-center offer-info-items">
+                    <div class="item-info item-info_stock">
+                        <p class="presence">В наличии</p>
+                        <p class="presence_value">2 шт</p>
+                    </div>
+                    <div class="item-info text-left last-order-container">
+                        <p class="last_buy text-left">Последняя покупка:
+                            <span class="last_buy_time">1 минуту назад
+                </span>
+                        </p>
+                        <p class="watching">Сейчас 10 посетителей смотрят этот товар</p>
+                    </div>
+                    <div class="item-info">
+                        <div class="stars">
+                        </div>
+                        <span class="stars_value bold_text">4.94</span>
+                        <div class="commets-count" style="">
+                            <span class="regular_text">153 отзыва</span>
+                            <span class="small_text"><a href="#">оставить отзыв</a></span>
+                        </div>
+
+                    </div>
+                </div>
+                <hr class="line">
+                <div class="row justify-content-around">
+                    <div class="col-5">
+                        <p>
+                            <span class="bold_text">Страна: </span>
+                            <span class="regular_text"> Россия</span>
+                        </p>
+                        <p>
+                            <span class="bold_text">Упаковка: </span>
+                            <span class="regular_text"> 5 пакетиков</span>
+                        </p>
+                        <p>
+                            <span class="bold_text">Вес: </span>
+                            <span class="regular_text"> 25 гр</span>
+                        </p>
+                        <p>
+                            <span class="regular_text natural-preparat">Препарат из натуральных ингридиентов</span>
+                        </p>
+                        <p>
+                            <span class="small_text">Не является лекарственным средством</span>
+                        </p>
+                    </div>
+                    <div class="col-7">
+                        <p>
+                            <span class="regular_text">Товар сертифицирован</span>
+                        </p>
+                        <p>
+                            <span class="bold_text">Доставка: </span>
+                            <span class="regular_text">от 89 руб, уточнит оператор </span>
+                        </p>
+                        <p>
+                            <span class="bold_text">Оплата: </span>
+                            <span class="regular_text">наличными/картой при получении</span>
+                        </p>
+                        <p>
+                            <img src="img/kards.png" alt="kards">
+                        </p>
+                    </div>
+                </div>
+                <div class="row akcia">
+                    <div class="col-1"><span class="large">!</span></div>
+                    <div class="col-11  message"><span>Скидка по акции действует только при оформлении заказа на сайте!</span></div>
+                </div>
+                <hr class="akcia_line _line">
+                <div class="akcia_timer_container d-flex justify-content-between align-items-center">
+                    <div class="timer-container">
+                        <div class="akcia-text">
+                            <div class="acia">Акция</div>
+                            <div class="persent">65%</div>
+                        </div>
+                        <div class="">
+                            <span class="regular_text">Осталось &nbsp</span>
+                            <span class="bold_text timer">
+                              <span id='hours'></span>
+                              <span id='hours_legend'></span>
+                              <span id='minutes'></span>
+                              <span id='minutes_legend'></span>
+                              <span id='seconds'></span>
+                              <span id='seconds_legend'></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="gods_item__price">
+                        <span class="old_price">2 829 руб</span>
+                        <span class="new_price">990 <span>руб</span></span>
+                    </div>
+                    <div class="to_cart">
+                        <button class="buy_button">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+<section class="product_information">
+    <div class="container">
+        <div class="row product_information_menu">
+            <a class="product_information_menu__item active" href="">Описание</a>
+            <a class="product_information_menu__item" href="">Сертификаты</a>
+            <a class="product_information_menu__item" href="">Товар в аптеках</a>
+        </div>
+        <div class="row product_information_title">
+            «АлкоБарьер» — эффективное средство в борьбе с алкоголизмом
+        </div>
+        <div class="row">
+            <p>
+                Среди большого количества разрекламированных препаратов и методов помочь реально способны единицы. Одним из
+                таких средств для многих зависимых и их родственников стал «АлкоБарьер». При необходимости помочь близкому
+                человеку, можно приобрести Алкобарьер средство от алкоголизма цена в аптеке в Екатеринбурге на который позволит
+                воспользоваться эффективным препаратом людям самых разных категорий и социальных статусов.
+            </p>
+        </div>
+        <div class="row justify-content-around product_information_block">
+            <div class="col-sm-6 col-12 content-img-container">
+                <img src="img/Alkobarer_2.png" alt="Alkobarer_2" class="content-img Alkobarer_2">
+            </div>
+            <div class="col-sm-6 col-12 product_information_text">
+                <h2>Уникальный состав против необратимых последствий</h2>
+                <p>
+                    Зависящий от алкогольных напитков человек медленно убивает свой организм, не замечая последствий, к которым
+                    ведет злоупотребление алкоголем. Жизнь превращается в существование, мучительное и для самого зависимого, и
+                    для его родных.
+                </p>
+                <p>
+                    «АлкоБарьер» является эффективным средством, которое позволяют человеку вернуться к обычной жизни, обрести
+                    покой, вновь обретя комфорт и уверенность. В составе препарата находятся фибрегам и янтарная кислота,
+                    успешно выводящие токсины из организма и оказывающие общеукрепляющее действие.
+                </p>
+                <p>
+                    На психологическом уровне воздействие оказывает входящий в состав препарата экстракт артишока, а также
+                    витамин В, дефицит которого восполняется почти в полной мере. При желании избавиться от алкогольной
+                    зависимости, можно Алко барьер средство от алкоголизма купить в аптеке в Екатеринбурге и на собственном
+                    опыте испытать эффективность специально разработанного порошка.
+                </p>
+                <div class="quiz">
+                    <div class="belive_question_container">
+                        <span class="belive_question"> Вы верите в лечебные свойства алкоголя? </span>
+                        <span class="belive_value"> 1 / 12 </span>
+                    </div>
+                    <div class="belive_answer_container">
+                        <div class="group">
+                            <input type="radio" id="no" name="quiz" value="no">
+                            <label for="no">Нет</label>
+                        </div>
+                        <div class="group">
+                            <input type="radio" id="maby" name="quiz" value="maby">
+                            <label for="maby">Да. в некоторых случаях</label>
+                        </div>
+                        <div class="group">
+                            <input type="radio" id="only" name="quiz" value="only">
+                            <label for="only">Только он и спасает</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Способ использования и эффект</h2>
+            <p>
+                Многие привыкли, что простые в использовании препараты оказываются малоэффективными в борьбе с алкоголизмом.
+                Порошок «Алко Барьер» легко растворяется в воде, после чего полученную смесь необходимо выпить. Субстанция не
+                будет иметь ярко выраженного запаха или вкуса, не влияя на вкусовые предпочтения. В день рекомендуется
+                использовать два пакетика порошкообразного средства. Улучшения и тенденции к выздоровлению можно будет
+                наблюдать в течение первой недели.
+            </p>
+            <p>
+                Для достижения наибольшего эффекта необходимо пройти полный курс лечения – чаще всего он составляет один
+                месяц. По истечению этого периода зависимые от алкоголя люди отмечают следующие симптомы:
+            </p>
+            <p>
+                не испытывают сильной тяги к горячительным напиткам; <br>
+                иногда полностью прекращают их употребление;<br>
+                замечаются улучшения в области работы печени, нервной системы, сердца, отмечаемые во время обследования.<br>
+                В особо сложных случаях курс лечения повторяют с небольшим перерывом.<br>
+            </p>
+        </div>
+        <div class="row otzuv_vracha">
+            <div class="col-sm-6 col-12">
+                <img src="img/alkobarer-otziv-vracha.png" alt="alkobarer-otziv-vracha" class="content-img alkobarer-otziv-vracha">
+            </div>
+            <div class="col-sm-6 col-12">
+                <h2>
+                    Где можно купить «Алкобарьер» в Екатеринбурге?
+                </h2>
+                <p>
+                    При необходимости всегда можно заказать Алкобарьер в Екатеринбурге в нашей интернет-аптеке, при этом
+                    потратив не так много средств и времени. Противопоказаний препарат не имеет, а лояльная стоимость позволяет
+                    пройти один или два курса лечения от алкогольной зависимости без особых усилий и трудностей. Вам остается
+                    только оставить онлайн заявку и наши специалисты свяжутся с вами.
+                </p>
+                <p>
+                    Верните уважение и любовь своих близких и друзей!
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="gods">
+    <div class="container">
+        <div class="row gods_title">
+        <span>
+          Вам может подойти
+        </span>
+        </div>
+        <div class="row gods_center gods-list">
+            <div class="gods_item">
+                <div class="col gods_item__img">
+                    <img src="img/gods.png" alt="goods">
+                </div>
+                <div class="col gods_item__name"><a href="offer.html">АлкоБарьер</a></div>
+                <div class="col gods_item__info">Полное избавление от алкоголизма за 1 месяц</div>
+                <div class="col gods_item__price">
+                    <span class="old_price">2 829 руб</span>
+                    <span class="new_price">990 <span>руб</span></span>
+                </div>
+                <div class="col gods_item__buy">
+                    <button class="buy_button">В корзину</button>
+                </div>
+            </div>
+            <div class="gods_item">
+                <div class="col gods_item__img">
+                    <img src="img/gods.png" alt="goods">
+                </div>
+                <div class="col gods_item__name"><a href="offer.html">АлкоБлокер</a></div>
+                <div class="col gods_item__info">Капли против алкоголизма</div>
+                <div class="col gods_item__price">
+                    <span class="old_price">2 829 руб</span>
+                    <span class="new_price">990 <span>руб</span></span>
+                </div>
+                <div class="col gods_item__buy">
+                    <button class="buy_button">В корзину</button>
+                </div>
+            </div>
+            <div class="gods_item">
+                <div class="col gods_item__img">
+                    <img src="img/gods.png" alt="goods">
+                </div>
+                <div class="col gods_item__name"><a href="offer.html">NicoFrost</a></div>
+                <div class="col gods_item__info">Капли от курения</div>
+                <div class="col gods_item__price">
+                    <span class="old_price">2 829 руб</span>
+                    <span class="new_price">990 <span>руб</span></span>
+                </div>
+                <div class="col gods_item__buy">
+                    <button class="buy_button">В корзину</button>
+                </div>
+            </div>
+            <div class="gods_item">
+                <div class="col gods_item__img">
+                    <img src="img/gods.png" alt="goods">
+                </div>
+                <div class="col gods_item__name"><a href="offer.html">Табамекс</a></div>
+                <div class="col gods_item__info">Средство от курения</div>
+                <div class="col gods_item__price">
+                    <span class="old_price">2 829 руб</span>
+                    <span class="new_price">990 <span>руб</span></span>
+                </div>
+                <div class="col gods_item__buy">
+                    <button class="buy_button">В корзину</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="popup_cart b-popup container " id="modal-cart" style="display: none;">
+    <div class="row b-popup-content popup_cart-container">
+        <div class="close-btn open-modal-link" data-modal-container="#modal-cart">
+            <img src="img/close.png" alt="">
+        </div>
+        <div class="inner">
+            <div class="left-part">
+                <div class="cart-title">
+                    <h2>Корзина</h2>
+                </div>
+                <div class="order_list">
+                    <div class="order_info">
+                        <div class=" order_info_img">
+                            <img src="img/kupit-alkobarer-small.png" alt="">
+                        </div>
+                        <div class="order_info_title">АлкоБарьер</div>
+                        <div class="order_info_value calc-plus-minus-widget">
+                            <div class="order_info_value__plusminus action-minus">-</div>
+                            <input name=""  type="number" min="1" required class="order_info_value__number val-widget" value="1">
+                            <div class="order_info_value__plusminus action-plus">+</div>
+                        </div>
+                        <div class="order_info_price"><span class="price-text">990</span><span class="price-currency">руб</span></div>
+                        <div class="order_info_dell"><span class="remove-from-cart" data-item=".order_info">Удалить</span></div>
+                    </div>
+
+                    <!--<div class="order_info">-->
+                        <!--<div class=" order_info_img">-->
+                            <!--<img src="img/kupit-alkobarer-small.png" alt="">-->
+                        <!--</div>-->
+                        <!--<div class="order_info_title">АлкоБарьер</div>-->
+                        <!--<div class="order_info_value calc-plus-minus-widget">-->
+                            <!--<div class="order_info_value__plusminus action-minus">-</div>-->
+                            <!--<input name=""  type="number" min="1" required class="order_info_value__number val-widget" value="1">-->
+                            <!--<div class="order_info_value__plusminus action-plus">+</div>-->
+                        <!--</div>-->
+                        <!--<div class="order_info_price"><span class="price-text">990</span><span class="price-currency">руб</span></div>-->
+                        <!--<div class="order_info_dell"><span class="remove-from-cart" data-item=".order_info">Удалить</span></div>-->
+                    <!--</div>-->
+                </div>
+                <hr>
+                <div class="outcome">
+                    <div class="outcome_promo"><a href=""> Есть промокод?</a></div>
+                    <div class="outcome_summ d-flex justify-content-end">
+                        <span class="outcome_text">Итого: </span>
+                        <span class="outcome_price">990</span>
+                        <span class="outcome_currency">руб</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="sale_container justify-content-between sale d-flex align-items-center">
+                    <div class="sale_img">
+                        <img src="img/sale.png" alt="sale">
+                    </div>
+                    <div class="sale_info">
+                        <p>При заказе дарим промокод на следующую покупку</p>
+                        <span>Промокод выдается сразу, но становится действительным только после утверждения</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-part formalization">
+                <div class="formalization_title">
+                    Оформление
+                </div>
+                <div class="formalization_kards">
+                    <img src="img/kards.png" alt="kards">
+                </div>
+                <div class="formalization_payment">
+                    <form action="">
+                        <span><b class="fw-800">Оплата: </b></span>
+
+                        <div class="form-group">
+                            <ul class="formalization_payment_list">
+                                <li>
+                                    <input type="radio" name="payment" id="card">
+                                    <label for="card">Картой при получении</label>
+                                </li>
+
+                                <li>
+                                    <input type="radio" name="payment" id="cash">
+                                    <label for="cash">Наличными при получении</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <hr>
+                        <div class="form-group f-group-country">
+                            <label for="country_city" class="country_city fw-800">Страна и город:</label>
+                            <input type="text" id="country_city" name="country_city" placeholder="Екатеринбург">
+                        </div>
+                        <hr class="hr-country">
+                        <div class="form-group">
+                            <label for="fio" class="input_contacts fw-800">Контакты:</label>
+                            <div class="inputs-contact">
+                                <input type="text" id="fio" name="fio" placeholder="Имя и фамилия">
+                                <input type="text" id="phone" name="phone" placeholder="Телефон">
+                            </div>
+                        </div>
+
+                        <button class="buy_button" type="submit">Оформить заказ</button>
+                        <span class="acept_order help-submit">Нажимая на кнопку, Вы соглашаетесь с политикой конфиденциальности</span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="popup_city b-popup container" id="modal-adress" style="display: none;">
+    <div class="row b-popup-content popup_aress-container">
+        <div class="close-btn close-modal-click" data-modal-container="#modal-adress">
+            <img src="img/close.png" alt="">
+        </div>
+        <div class="inner">
+            <div class="popup_country right-part">
+                <h2>
+                    Поиск города
+                </h2>
+                <input type="text" name="city_search" clas="city_search" placeholder="Введите название">
+                <hr>
+                <h2 class="pick_country">Выберите страну</h2>
+                <ul class="countries-list">
+                    <li>
+                        <input type="radio" name="choose_country" id="azerb">
+                        <label for="azerb">Азербайджан</label></li>
+                    <li><input type="radio" name="choose_country" id="armenia">
+                        <label for="armenia">Армения</label></li>
+                    <li><input type="radio" name="choose_country" id="belar">
+                        <label for="belar">Беларусь</label></li>
+                    <li><input type="radio" name="choose_country" id="georgia">
+                        <label for="georgia">Грузия</label></li>
+                    <li><input type="radio" name="choose_country" id="kazahstan">
+                        <label for="kazahstan">Казахстан</label></li>
+                    <li><input type="radio" name="choose_country" id="kirgizia">
+                        <label for="kirgizia">Киргизия</label></li>
+                    <li><input type="radio" name="choose_country" id="moldova">
+                        <label for="moldova">Молдова</label></li>
+                    <li><input type="radio" name="choose_country" id="russia">
+                        <label for="russia">Россия</label></li>
+                    <li><input type="radio" name="choose_country" id="uzbekistan">
+                        <label for="uzbekistan">Узбекистан</label></li>
+                    <li><input type="radio" name="choose_country" id="ukraine">
+                        <label for="ukraine">Украина</label></li>
+                </ul>
+            </div>
+
+            <div class="popup_region left-part">
+                <div class="justify-content-between choose_city">
+                    <div class="select-region-ttitle">
+                        <h2 class="region-title">Выберите регион</h2>
+                        <p>Доставка работает по всей России и СНГ. Вашего города может не быть в списке, но мы все равно
+                            привезем</p>
+                    </div>
+                    <div class="">
+                        <button class="buy_button">Искать на карте</button>
+                    </div>
+                </div>
+                <div class="city_lis" data-simplebar>
+                    <div class="city_lis_col">
+                        <h2>
+                            A
+                        </h2>
+                        <p>Абакан</p>
+                        <p>Актобе</p>
+                        <p>Алмать</p>
+                        <p>Ангарск</p>
+                        <p>Архангельск</p>
+                        <p>Астана</p>
+                        <p>Астрахань</p>
+                        <h2>Б</h2>
+                        <p>Баку</p>
+                        <p>Балашиха</p>
+                        <p>Барнаул</p>
+                    </div>
+                    <div class="city_lis_col">
+                        <h2>Е</h2>
+                        <p>Екатеринбург</p>
+                        <p>Ереван</p>
+                        <h2>З</h2>
+                        <p>Запорожье</p>
+                        <h2>И</h2>
+                        <p>Иваново</p>
+                        <p>Ижевск</p>
+                        <p>Иркутск</p>
+                    </div>
+                    <div class="city_lis_col">
+                        <h2>М</h2>
+                        <p>Магадан</p>
+                        <p>Магнитогорск</p>
+                        <p>Махачкала</p>
+                        <p>Минск</p>
+                        <p>Могилёв</p>
+                        <p>Москва</p>
+                        <p>Мурманск</p>
+                        <h2>Н</h2>
+                        <p>Набережные Челны</p>
+                        <p>Нальчик</p>
+                        <p>Нижневартовск</p>
+                    </div>
+                    <div class="city_lis_col">
+                        <h2>С</h2>
+                        <p>Самара</p>
+                        <p>Санкт-Петербург</p>
+                        <p>Саранск</p>
+                        <p>Саратов</p>
+                        <p>Севастополь</p>
+                        <p>Симферополь</p>
+                        <p>Сочи</p>
+                        <p>Ставрополь</p>
+                        <p>Ставрополь</p>
+                        <p>Старый Оскол</p>
+                        <p>Сургут</p>
+                        <h2>Т</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="basket flex-vertical-align open-modal-link"  data-modal-container="#modal-cart" id="basket" data-list="/basket/list" data-pull="/basket/pull">
+    <i class="fa fa-shopping-cart"><span class="notification" id="basket-amount" style="display: none;"></span></i>
+    <div>
+        <div class="empty" data-empty="Корзина" id="basket-summary">Корзина</div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                © Аптека №5, 2005—2018
+            </div>
+            <div class="col-6 text_right">
+                <a href="#">
+                    Политика конфиденциальности
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
